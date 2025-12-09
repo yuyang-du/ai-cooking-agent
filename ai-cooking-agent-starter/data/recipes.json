@@ -2,59 +2,451 @@
   {
     "id": "r1",
     "title": "5-Minute Peanut Butter Banana Toast",
-    "ingredients": [
-      "bread",
-      "peanut butter",
-      "banana"
-    ],
-    "tags": [
-      "breakfast",
-      "cheap",
-      "quick"
-    ],
-    "dietary": [
-      "vegetarian"
-    ],
+    "ingredients": ["bread", "peanut butter", "banana"],
+    "tags": ["breakfast", "cheap", "quick"],
+    "dietary": ["vegetarian"],
     "time_minutes": 5,
     "cost_level": "low"
   },
   {
     "id": "r2",
     "title": "Spicy Chickpea Rice Bowl",
-    "ingredients": [
-      "chickpeas",
-      "rice",
-      "spinach",
-      "chili",
-      "garlic"
-    ],
-    "tags": [
-      "vegan",
-      "cheap",
-      "meal-prep"
-    ],
-    "dietary": [
-      "vegan",
-      "gluten-free"
-    ],
+    "ingredients": ["chickpeas", "rice", "spinach", "chili", "garlic"],
+    "tags": ["vegan", "cheap", "meal-prep", "dinner"],
+    "dietary": ["vegan", "gluten-free"],
     "time_minutes": 20,
     "cost_level": "low"
   },
   {
     "id": "r3",
     "title": "Simple Chicken Stir-Fry",
-    "ingredients": [
-      "chicken",
-      "soy sauce",
-      "mixed vegetables",
-      "garlic"
-    ],
-    "tags": [
-      "dinner",
-      "high-protein"
-    ],
+    "ingredients": ["chicken", "soy sauce", "mixed vegetables", "garlic"],
+    "tags": ["dinner", "high-protein", "quick"],
     "dietary": [],
     "time_minutes": 25,
     "cost_level": "medium"
+  },
+  {
+    "id": "r4",
+    "title": "Microwave Oatmeal with Berries",
+    "ingredients": ["oats", "milk", "berries", "honey"],
+    "tags": ["breakfast", "cheap", "quick"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 5,
+    "cost_level": "low"
+  },
+  {
+    "id": "r5",
+    "title": "Greek Yogurt Honey Bowl",
+    "ingredients": ["greek yogurt", "honey", "granola"],
+    "tags": ["breakfast", "quick"],
+    "dietary": ["vegetarian", "gluten-free"],
+    "time_minutes": 3,
+    "cost_level": "low"
+  },
+  {
+    "id": "r6",
+    "title": "Overnight Oats",
+    "ingredients": ["oats", "milk", "chia seeds", "banana"],
+    "tags": ["breakfast", "meal-prep", "cheap"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 10,
+    "cost_level": "low"
+  },
+  {
+    "id": "r7",
+    "title": "Egg Fried Rice",
+    "ingredients": ["rice", "eggs", "soy sauce", "peas", "carrots"],
+    "tags": ["cheap", "quick", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 15,
+    "cost_level": "low"
+  },
+  {
+    "id": "r8",
+    "title": "Tuna Mayo Rice Bowl",
+    "ingredients": ["canned tuna", "rice", "mayonnaise", "seaweed"],
+    "tags": ["cheap", "quick", "lunch"],
+    "dietary": [],
+    "time_minutes": 10,
+    "cost_level": "low"
+  },
+  {
+    "id": "r9",
+    "title": "Turkey Sandwich",
+    "ingredients": ["bread", "turkey", "lettuce", "tomato", "mustard"],
+    "tags": ["lunch", "quick"],
+    "dietary": [],
+    "time_minutes": 5,
+    "cost_level": "low"
+  },
+  {
+    "id": "r10",
+    "title": "Avocado Egg Toast",
+    "ingredients": ["bread", "avocado", "eggs", "salt", "pepper"],
+    "tags": ["breakfast", "quick"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 10,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r11",
+    "title": "Pasta with Garlic and Olive Oil",
+    "ingredients": ["pasta", "garlic", "olive oil", "chili flakes"],
+    "tags": ["cheap", "quick", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 15,
+    "cost_level": "low"
+  },
+  {
+    "id": "r12",
+    "title": "Tomato Basil Pasta",
+    "ingredients": ["pasta", "canned tomatoes", "basil", "garlic"],
+    "tags": ["cheap", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 20,
+    "cost_level": "low"
+  },
+  {
+    "id": "r13",
+    "title": "Creamy Mushroom Pasta",
+    "ingredients": ["pasta", "mushrooms", "cream", "garlic"],
+    "tags": ["dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 25,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r14",
+    "title": "One-Pan Sausage and Peppers",
+    "ingredients": ["sausage", "bell peppers", "onion", "olive oil"],
+    "tags": ["dinner", "one-pan"],
+    "dietary": [],
+    "time_minutes": 25,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r15",
+    "title": "Baked Potato with Cheese",
+    "ingredients": ["potato", "cheddar cheese", "butter", "salt"],
+    "tags": ["cheap", "lunch", "quick"],
+    "dietary": ["vegetarian", "gluten-free"],
+    "time_minutes": 12,
+    "cost_level": "low"
+  },
+  {
+    "id": "r16",
+    "title": "Black Bean Quesadilla",
+    "ingredients": ["tortillas", "black beans", "cheese", "salsa"],
+    "tags": ["cheap", "quick", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 12,
+    "cost_level": "low"
+  },
+  {
+    "id": "r17",
+    "title": "Veggie Quesadilla",
+    "ingredients": ["tortillas", "bell peppers", "onion", "cheese"],
+    "tags": ["quick", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 12,
+    "cost_level": "low"
+  },
+  {
+    "id": "r18",
+    "title": "Chicken Quesadilla",
+    "ingredients": ["tortillas", "chicken", "cheese", "salsa"],
+    "tags": ["quick", "dinner", "high-protein"],
+    "dietary": [],
+    "time_minutes": 15,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r19",
+    "title": "Instant Ramen Upgrade",
+    "ingredients": ["instant ramen", "eggs", "spinach", "green onion"],
+    "tags": ["cheap", "quick", "late-night"],
+    "dietary": [],
+    "time_minutes": 8,
+    "cost_level": "low"
+  },
+  {
+    "id": "r20",
+    "title": "Vegan Ramen Upgrade",
+    "ingredients": ["instant ramen", "tofu", "spinach", "mushrooms"],
+    "tags": ["cheap", "quick", "vegan"],
+    "dietary": ["vegan"],
+    "time_minutes": 10,
+    "cost_level": "low"
+  },
+  {
+    "id": "r21",
+    "title": "Tofu Veggie Stir-Fry",
+    "ingredients": ["tofu", "broccoli", "soy sauce", "garlic"],
+    "tags": ["vegan", "cheap", "dinner"],
+    "dietary": ["vegan"],
+    "time_minutes": 20,
+    "cost_level": "low"
+  },
+  {
+    "id": "r22",
+    "title": "Lentil Soup",
+    "ingredients": ["lentils", "carrots", "onion", "garlic", "broth"],
+    "tags": ["vegan", "cheap", "meal-prep"],
+    "dietary": ["vegan", "gluten-free"],
+    "time_minutes": 35,
+    "cost_level": "low"
+  },
+  {
+    "id": "r23",
+    "title": "Chili Bean Bowl",
+    "ingredients": ["kidney beans", "black beans", "tomato", "chili spice"],
+    "tags": ["vegan", "cheap", "meal-prep"],
+    "dietary": ["vegan", "gluten-free"],
+    "time_minutes": 30,
+    "cost_level": "low"
+  },
+  {
+    "id": "r24",
+    "title": "Simple Salad with Chickpeas",
+    "ingredients": ["lettuce", "chickpeas", "cucumber", "olive oil", "lemon"],
+    "tags": ["vegan", "quick", "lunch"],
+    "dietary": ["vegan", "gluten-free"],
+    "time_minutes": 10,
+    "cost_level": "low"
+  },
+  {
+    "id": "r25",
+    "title": "Caprese Sandwich",
+    "ingredients": ["bread", "mozzarella", "tomato", "basil"],
+    "tags": ["vegetarian", "quick", "lunch"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 8,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r26",
+    "title": "Peanut Noodles",
+    "ingredients": ["noodles", "peanut butter", "soy sauce", "garlic"],
+    "tags": ["cheap", "quick", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 15,
+    "cost_level": "low"
+  },
+  {
+    "id": "r27",
+    "title": "Vegan Peanut Noodles",
+    "ingredients": ["noodles", "peanut butter", "soy sauce", "lime"],
+    "tags": ["vegan", "cheap", "quick"],
+    "dietary": ["vegan"],
+    "time_minutes": 15,
+    "cost_level": "low"
+  },
+  {
+    "id": "r28",
+    "title": "Rice and Beans Bowl",
+    "ingredients": ["rice", "black beans", "cumin", "lime"],
+    "tags": ["vegan", "cheap", "dinner"],
+    "dietary": ["vegan", "gluten-free"],
+    "time_minutes": 20,
+    "cost_level": "low"
+  },
+  {
+    "id": "r29",
+    "title": "Chicken Rice Bowl",
+    "ingredients": ["rice", "chicken", "broccoli", "soy sauce"],
+    "tags": ["meal-prep", "high-protein", "dinner"],
+    "dietary": [],
+    "time_minutes": 25,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r30",
+    "title": "Egg and Spinach Wrap",
+    "ingredients": ["tortilla", "eggs", "spinach", "cheese"],
+    "tags": ["breakfast", "quick"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 10,
+    "cost_level": "low"
+  },
+  {
+    "id": "r31",
+    "title": "Hummus Veggie Wrap",
+    "ingredients": ["tortilla", "hummus", "cucumber", "lettuce"],
+    "tags": ["vegan", "quick", "lunch"],
+    "dietary": ["vegan"],
+    "time_minutes": 8,
+    "cost_level": "low"
+  },
+  {
+    "id": "r32",
+    "title": "Baked Salmon and Rice",
+    "ingredients": ["salmon", "rice", "lemon", "salt", "pepper"],
+    "tags": ["dinner", "high-protein"],
+    "dietary": ["gluten-free"],
+    "time_minutes": 30,
+    "cost_level": "high"
+  },
+  {
+    "id": "r33",
+    "title": "Vegetable Curry with Rice",
+    "ingredients": ["mixed vegetables", "curry paste", "coconut milk", "rice"],
+    "tags": ["vegan", "dinner"],
+    "dietary": ["vegan", "gluten-free"],
+    "time_minutes": 30,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r34",
+    "title": "Scrambled Eggs with Toast",
+    "ingredients": ["eggs", "butter", "bread", "salt"],
+    "tags": ["breakfast", "cheap", "quick"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 8,
+    "cost_level": "low"
+  },
+  {
+    "id": "r35",
+    "title": "Fruit Smoothie",
+    "ingredients": ["banana", "berries", "milk", "yogurt"],
+    "tags": ["breakfast", "quick"],
+    "dietary": ["vegetarian", "gluten-free"],
+    "time_minutes": 5,
+    "cost_level": "low"
+  },
+  {
+    "id": "r36",
+    "title": "Vegan Fruit Smoothie",
+    "ingredients": ["banana", "berries", "oat milk"],
+    "tags": ["vegan", "quick", "breakfast"],
+    "dietary": ["vegan", "gluten-free"],
+    "time_minutes": 5,
+    "cost_level": "low"
+  },
+  {
+    "id": "r37",
+    "title": "Cheese and Tomato Omelet",
+    "ingredients": ["eggs", "cheese", "tomato"],
+    "tags": ["breakfast", "quick"],
+    "dietary": ["vegetarian", "gluten-free"],
+    "time_minutes": 10,
+    "cost_level": "low"
+  },
+  {
+    "id": "r38",
+    "title": "Canned Soup and Bread Combo",
+    "ingredients": ["canned soup", "bread"],
+    "tags": ["cheap", "quick", "lunch"],
+    "dietary": [],
+    "time_minutes": 5,
+    "cost_level": "low"
+  },
+  {
+    "id": "r39",
+    "title": "Vegetarian Chili",
+    "ingredients": ["beans", "tomato", "onion", "chili spice"],
+    "tags": ["vegetarian", "cheap", "meal-prep"],
+    "dietary": ["vegetarian", "gluten-free"],
+    "time_minutes": 35,
+    "cost_level": "low"
+  },
+  {
+    "id": "r40",
+    "title": "Simple Beef Taco Bowl",
+    "ingredients": ["ground beef", "rice", "salsa", "lettuce"],
+    "tags": ["dinner", "high-protein"],
+    "dietary": ["gluten-free"],
+    "time_minutes": 25,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r41",
+    "title": "Veggie Sushi Bowl",
+    "ingredients": ["rice", "cucumber", "carrot", "soy sauce", "seaweed"],
+    "tags": ["vegan", "lunch", "cheap"],
+    "dietary": ["vegan"],
+    "time_minutes": 20,
+    "cost_level": "low"
+  },
+  {
+    "id": "r42",
+    "title": "Yogurt Parfait",
+    "ingredients": ["yogurt", "berries", "granola"],
+    "tags": ["breakfast", "quick"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 5,
+    "cost_level": "low"
+  },
+  {
+    "id": "r43",
+    "title": "Pesto Pasta",
+    "ingredients": ["pasta", "pesto", "parmesan"],
+    "tags": ["dinner", "quick"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 15,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r44",
+    "title": "Cottage Cheese and Fruit Bowl",
+    "ingredients": ["cottage cheese", "pineapple", "berries"],
+    "tags": ["breakfast", "high-protein"],
+    "dietary": ["vegetarian", "gluten-free"],
+    "time_minutes": 5,
+    "cost_level": "low"
+  },
+  {
+    "id": "r45",
+    "title": "Veggie Mac and Cheese",
+    "ingredients": ["macaroni", "cheese", "broccoli"],
+    "tags": ["comfort", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 20,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r46",
+    "title": "Stir-Fried Udon with Vegetables",
+    "ingredients": ["udon noodles", "cabbage", "carrot", "soy sauce"],
+    "tags": ["cheap", "dinner"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 20,
+    "cost_level": "low"
+  },
+  {
+    "id": "r47",
+    "title": "Simple Pancakes",
+    "ingredients": ["flour", "milk", "eggs", "sugar"],
+    "tags": ["breakfast"],
+    "dietary": ["vegetarian"],
+    "time_minutes": 20,
+    "cost_level": "low"
+  },
+  {
+    "id": "r48",
+    "title": "Vegan Pancakes",
+    "ingredients": ["flour", "oat milk", "baking powder", "sugar"],
+    "tags": ["breakfast", "vegan"],
+    "dietary": ["vegan"],
+    "time_minutes": 20,
+    "cost_level": "low"
+  },
+  {
+    "id": "r49",
+    "title": "Frozen Dumplings with Greens",
+    "ingredients": ["frozen dumplings", "bok choy", "soy sauce"],
+    "tags": ["quick", "dinner"],
+    "dietary": [],
+    "time_minutes": 12,
+    "cost_level": "medium"
+  },
+  {
+    "id": "r50",
+    "title": "Simple Fried Tofu Bowl",
+    "ingredients": ["tofu", "rice", "soy sauce", "garlic"],
+    "tags": ["vegan", "cheap", "dinner"],
+    "dietary": ["vegan", "gluten-free"],
+    "time_minutes": 20,
+    "cost_level": "low"
   }
 ]
