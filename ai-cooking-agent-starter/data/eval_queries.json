@@ -1,14 +1,74 @@
 [
   {
     "query": "cheap vegan dinner under 20 minutes",
-    "relevant_recipe_ids": [
-      "r2"
-    ]
+    "relevant_recipe_ids": ["r2", "r21", "r28", "r50", "r27"]
   },
   {
     "query": "quick breakfast with fruit",
-    "relevant_recipe_ids": [
-      "r1"
-    ]
+    "relevant_recipe_ids": ["r1", "r4", "r35", "r42", "r44"]
+  },
+  {
+    "query": "high protein lunch that is fast",
+    "relevant_recipe_ids": ["r8", "r9", "r44", "r29"]
+  },
+  {
+    "query": "vegetarian cheap dinner",
+    "relevant_recipe_ids": ["r7", "r11", "r12", "r16", "r17", "r39"]
+  },
+  {
+    "query": "gluten free vegan meal",
+    "relevant_recipe_ids": ["r2", "r23", "r28", "r33", "r50", "r36"]
+  },
+  {
+    "query": "late night cheap food",
+    "relevant_recipe_ids": ["r19", "r20", "r11"]
+  },
+  {
+    "query": "meal prep vegan options",
+    "relevant_recipe_ids": ["r2", "r22", "r23", "r39", "r29"]
+  },
+  {
+    "query": "quick noodle dinner",
+    "relevant_recipe_ids": ["r26", "r27", "r46", "r19", "r20"]
+  },
+  {
+    "query": "fast chicken dinner",
+    "relevant_recipe_ids": ["r3", "r18", "r29"]
+  },
+  {
+    "query": "cheap lunch for students",
+    "relevant_recipe_ids": ["r8", "r9", "r15", "r24", "r31", "r38"]
+  },
+  {
+    "query": "quick egg breakfast",
+    "relevant_recipe_ids": ["r10", "r30", "r34", "r37"]
+  },
+  {
+    "query": "simple pasta dinner",
+    "relevant_recipe_ids": ["r11", "r12", "r13", "r43"]
+  },
+  {
+    "query": "one pan dinner ideas",
+    "relevant_recipe_ids": ["r14"]
+  },
+  {
+    "query": "cheap rice bowl meals",
+    "relevant_recipe_ids": ["r2", "r7", "r8", "r28", "r29", "r41", "r50"]
+  },
+  {
+    "query": "vegetarian breakfast quick",
+    "relevant_recipe_ids": ["r1", "r4", "r6", "r34", "r42"]
+  },
+  {
+    "query": "healthy salad vegan lunch",
+    "relevant_recipe_ids": ["r24", "r31"]
+  },
+  {
+    "query": "comfort food vegetarian",
+    "relevant_recipe_ids": ["r45", "r13", "r12"]
+  },
+  {
+    "query": "higher budget healthy dinner",
+    "relevant_recipe_ids": ["r32", "r14", "r33"]
   }
 ]
