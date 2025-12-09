@@ -89,17 +89,52 @@ We use pretrained transformer models via Hugging Face without training new weigh
 
 ## 5. Results
 
-### 5.1 Main results
-We report:
-- Precision@k and Recall@k for retrieval.
-- A small human evaluation of end-to-end helpfulness and constraint adherence.
+### 5.1 Main Results
 
-**(Insert your table here after running evaluate.py.)**
+We evaluate our system at two levels:
 
-### 5.2 Supplementary results
-We compare:
-- retrieval-only baseline
-- agent with prompting formats for search actions and grounded answers
+1) **Retrieval performance** using TF-IDF over the curated recipe collection.  
+2) **End-to-end agent quality** using a small human evaluation rubric focused on constraint adherence and usefulness.
+
+#### Retrieval Metrics
+
+| Method | Precision@5 | Recall@5 |
+|--------|-------------|----------|
+| TF-IDF baseline | 0.522 | 0.623 |
+| Agent search-action prompting |  |  |
+
+**Notes on interpretation**
+- The TF-IDF baseline measures how well keyword-based retrieval matches user intent.
+- The agent variant tests whether structured search-action prompting improves the relevance of retrieved recipes.
+
+#### End-to-End Human Evaluation (Small-Scale)
+
+We evaluate final responses on a small set of user-like queries.
+
+| Criterion | Description | Score Scale |
+|----------|-------------|------------|
+| Constraint adherence | Respects budget, time, and dietary requirements | 1–5 |
+| Grounding | Recommendation matches retrieved recipes | 1–5 |
+| Helpfulness | Clear, practical, student-friendly suggestion | 1–5 |
+
+| System Version | Constraint Adherence | Grounding | Helpfulness |
+|---------------|----------------------|-----------|-------------|
+| Retrieval-only baseline |  |  |  |
+| Full agent (retrieval + LLM prompting) |  |  |  |
+
+### 5.2 Supplementary Results
+
+We also examine:
+- Performance differences across constraint types (budget vs. dietary vs. time).
+- Sensitivity to `top_k` retrieval settings.
+- A small comparison of prompt formats for search-action generation.
+
+| Setting | Observation |
+|--------|-------------|
+| top_k = 3 |  |
+| top_k = 5 |  |
+| top_k = 10 |  |
+
 
 ## 6. Discussion
 We discuss why the agent succeeds or fails given the current recipe coverage and prompting formats.
